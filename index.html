@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <title>hi im kanika!</title>
+    <title>Kanika</title>
 
     <style>
         #background_carousel {
@@ -24,6 +24,56 @@
         .embed-responsive .card-img-top {
             object-fit: cover;
         }
+        .sub_div {
+            padding: 5%;
+            color: white;
+            border-radius: 15px;
+        }
+        /* Style for Extra Large Screen */
+        @media (max-width:3920px) {
+        .btn-sq-responsive {
+        width: 100px !important;
+        max-width: 100% !important;
+        max-height: 100% !important;
+        height: 100px !important;
+        font-size:15px;
+        }
+        }
+
+        /* Style for Large Screen */
+        @media (max-width:991px) {
+        .btn-sq-responsive {
+        width: 125px !important;
+        max-width: 100% !important;
+        max-height: 100% !important;
+        height: 125px !important;
+        font-size:9px;
+        }
+        }
+
+        /* Style for Medium Screen */
+        @media (max-width:767px) {
+        .btn-sq-responsive {
+        width: 50px !important; /* whatever width you want for medium screen */
+        max-width: 100% !important;
+        max-height: 100% !important;
+        height: 50px !important; /* whatever height you want for medium screen */
+        font-size:6px;
+        }
+        }
+
+        /* Style for Small Screen */
+        @media (max-width:575px) {
+        .btn-sq-responsive {
+        width: 25px !important; /* whatever width you want for mobile screen */
+        max-width: 100% !important;
+        max-height: 100% !important;
+        height: 25px !important; /* whatever height you want for mobile screen */
+        font-size:5px;
+        padding: 0px;
+        font-size:7px;
+        }
+    }
     </style>
 </head>
 <body>
@@ -138,18 +188,67 @@
       </div>
       </div>
 
-      <div class = "container mx-auto p-3">
-      <div id = "intro">
-        <h3 class = "display-4">Are you bored?</h3>
-        <hr style = "color: whitesmoke">
-        <p id = "bored" class = "display-5 text-italics mt-2" style = "color: #AF929D">
-            <input class="btn" type="button" value="Click here!" onclick="call_bored_api()" style = "background-color:#4B0150; color: white">
-        </p>
-      </div>
-      </div>
+    <div class = "container mx-auto p-3">
+        <div class = "row">
+        <div class = "col text-center">
+        <div class = "sub_div" style = "background-color: rgba(42, 68, 159, 0.945);">
+          <h3 class = "display-5">Bucket list destination!</h3>
+          <hr style = "color: whitesmoke">
+          <p>It has been a dream of mine to one day make the solo trip to see the Northern Lights! The fact that it is a whole environment that is so different from Singapore and is a true beauty of the world motivates me to take the trip! I hope that one day when I do end up there, I will do a vlog similar to the one shown below! </p>
+          <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/Ior3nE0zeSo?autoplay=1&mute=1">
+            </iframe>
+        </div>
+        </div>
+
+        <div class = "col text-center">
+            <div class = "row">
+            <div class = "sub_div" style = "background-color: rgba(212, 63, 105, 0.945);">
+              <h3 class = "display-5">I write!</h3>
+              <hr style = "color: whitesmoke">
+              <p>So in the time before university started, I started my own blog just to write my thoughts out! I have always loved journaling and below are links to come of my writings :) </p>
+              <a class="btn btn-light btn-sq-responsive" href="https://violetversos.wixsite.com/my-site/post/situational-attitudes" role="button" type = "button"><br>Situational Attributes</a>
+              <a class="btn btn-dark btn-sq-responsive" href="https://violetversos.wixsite.com/my-site/post/modern-loneliness" role="button"><br>Modern Loneliness</a>
+              <a class="btn btn-light btn-sq-responsive" href="https://violetversos.wixsite.com/my-site/post/violet-verses" role="button"><br>Violet Verses</a>
+              <a class="btn btn-dark btn-sq-responsive" href="https://violetversos.wixsite.com/my-site/post/definition-of-worth" role="button"><br>Definition of Worth</a>
+              <a class="btn btn-light btn-sq-responsive" href="https://violetversos.wixsite.com/my-site/post/violet-versos" role="button"><br>Violet Versos</a>
+            </div>
+            </div>
+
+            <div class = "row">
+                <div class = "sub_div mt-2" style = "background-color: rgba(63, 212, 142, 0.945); color: black">
+                    <h3 class = "display-5">Interests!</h3>
+                    <hr style = "color: black">
+                    <p>When it comes to technology there are so many interesting fields and the knowledge to be gained is endless! So here are my current interest domains :</p>
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item bg-transparent text-light-lead">Fintech</li>
+                        <li class="list-group-item bg-transparent text-light-lead">Ethical AI</li>
+                        <li class="list-group-item bg-transparent text-light-lead">Biometrics</li>
+                        <li class="list-group-item bg-transparent text-light-lead">Data Analysis</li>
+                        <li class="list-group-item bg-transparent text-light-lead">UI/UX Research</li>
+                    </ul>
+            </div>
+            </div>
+        </div>
+                    
+        <div class = "container p-3">
+            <div id = "intro">
+            <h3 class = "display-4">Are you bored?</h3>
+            <hr style = "color: whitesmoke">
+            <p id = "bored" class = "display-5 text-italics mt-2" style = "color: #AF929D">
+                <input class="btn" type="button" value="Click here!" onclick="call_bored_api()" style = "background-color:#4B0150; color: white">
+            </p>
+            </div>
+            </div>
+
+                    
+        </div>
+    </div>
+
 </div>
 
-    <form action = "" method = "post">
+
+    <form action = "" method = "get">
       <div class = "form bg-dark text-white mt-4">
         <div class = "container">
         <div class = "row">
@@ -218,7 +317,7 @@
                 </div>`
             }
             else if (counter == 2){
-                text = `Wow! We are 40% compatible! can't wait to know what we matched on! <div class="progress">
+                text = `Wow! We are 40% compatible! can't wait to know what did we match on! <div class="progress">
                 <div class="progress-bar bg-dark" role="progressbar" style ="width:40%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>`
             }
